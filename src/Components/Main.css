@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 60px auto;
+    max-width: 1000px;
+    min-width: 500px;
+    width: 1000px;
+    min-height: 700px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px 3px rgba(0,0,0,0.30);
+}
