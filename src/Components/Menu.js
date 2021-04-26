@@ -1,9 +1,11 @@
 import "./Menu.css"
+import FeedbackHolder from "./FeedbackHolder";
+import MenuHolder from "./MenuHolder";
 const Menu = () => {
     return(
         <div className="menu">
-            feedback
-            subMenu
+            <FeedbackHolder/>
+            <MenuHolder/>
         </div>
     );
 }

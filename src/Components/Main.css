@@ -11,7 +11,28 @@
     width: 1000px;
     min-height: 700px;
     height: 700px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     box-shadow: 1px 3px 5px 3px rgba(0,0,0,0.30);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.feedback_wrapper{
+    background-color: red;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback_box{
+    background-color: white;
+    border: 2px solid black;
+    width: 95%;
+    height: 90%;
+}
+.menu_wrapper{
+    background-color: cornflowerblue;
+    width: 45%;
 }
