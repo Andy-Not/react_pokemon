@@ -1,7 +1,9 @@
+import SubMenu from "./Dynamic/SubMenu";
+
 const MenuHolder = () => {
     return(
         <div className="menu_wrapper">
-            i hold menus
+            <SubMenu/>
         </div>
     );
 }

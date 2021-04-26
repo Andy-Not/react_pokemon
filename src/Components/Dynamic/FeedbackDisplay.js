@@ -1,7 +1,7 @@
 const FeedbackDisplay = () => {
     return(
         <div className="feedback_box">
-            <p>im some random feedback</p>
+           i hold text
         </div>
     );
 }
