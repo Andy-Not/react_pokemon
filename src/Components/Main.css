@@ -20,7 +20,6 @@
     flex-direction: row;
 }
 .feedback_wrapper{
-    background-color: #635790;
     width: 55%;
     display: flex;
     justify-content: center;
@@ -31,11 +30,11 @@
     border: 2px solid black;
     width: 95%;
     height: 90%;
+    box-shadow: 0px 9px 15px -5px #000000;
 }
 .menu_wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #635790;
     width: 45%;
 }

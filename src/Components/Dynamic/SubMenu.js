@@ -1,15 +1,16 @@
 import "./SubMenu.css";
 import Button from "./Button";
-const SubMenu = () => {
+import React from 'react';
+const SubMenu = (props) => {
     return(
         <div className="options_menu">
             <div className="btn_holder">
-                <Button>ATTACK</Button>
-                <Button>BAG</Button>
+                <Button setActiveBtn = {props.setActiveBtn} textChange = {props.textChange}>{props.buttonText[0]}</Button>
+                <Button setActiveBtn = {props.setActiveBtn} textChange = {props.textChange}>{props.buttonText[1]}</Button>
             </div>
             <div className="btn_holder">
-                <Button>POKEMON</Button>
-                <Button>RUN</Button>
+                <Button setActiveBtn = {props.setActiveBtn} textChange = {props.textChange}>{props.buttonText[2]}</Button>
+                <Button setActiveBtn = {props.setActiveBtn} textChange = {props.textChange}>{props.buttonText[3]}</Button>
             </div>
         </div>
     );

@@ -1,9 +1,9 @@
 import FeedbackDisplay from "./Dynamic/FeedbackDisplay";
 
-const FeedbackHolder = () => {
+const FeedbackHolder = (props) => {
     return(
         <div className="feedback_wrapper">
-            <FeedbackDisplay/>
+            <FeedbackDisplay currentText = {props.currentText}/>
         </div>
     );
 }

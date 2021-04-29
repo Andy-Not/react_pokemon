@@ -1,7 +1,7 @@
-const FeedbackDisplay = () => {
+const FeedbackDisplay = (props) => {
     return(
         <div className="feedback_box">
-           i hold text
+            {props.currentText}
         </div>
     );
 }
