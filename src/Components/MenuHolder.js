@@ -13,7 +13,6 @@ const MenuHolder = (props) => {
 
     const [activeBtn, setActiveBtn] = useState(null);
 
-    console.log(props.pokemon);
     if (activeBtn === "FIGHT"){
         return (
             <div className="menu_wrapper">

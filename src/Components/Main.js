@@ -9,6 +9,7 @@ const Main = () => {
     const [usePokemon, setPokemon] = useState(null)
 
     const resources = async () => {
+
           try {
               const pokemonInfo = await Axios.get(`https://pokeapi.co/api/v2/pokemon/pikachu`);
               setPokemon(pokemonInfo.data);
@@ -17,6 +18,7 @@ const Main = () => {
           }
     };
     resources();
+
     return(
         <div className="main">
             <Display/>
