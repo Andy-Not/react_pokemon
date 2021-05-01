@@ -1,0 +1,19 @@
+.Button{
+    color: white;
+    background-color: #5f83ff;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 1px 30px 4px #000000;
+    border-radius: 1rem;
+}
+
+.Button:hover{
+    cursor: pointer;
+    color: black;
+    background: #8099ff;
+    box-shadow: inset 0px 1px 10px 1px #000000;
+    transition: background 0.4s 0s ease-in-out, box-shadow 0.5s 0s ease, color 0.5s 0s ease;
+}
